@@ -240,7 +240,8 @@ MonoBehaviour:
   position: {x: -7, y: 3.8, z: 0}
   text1: M
   textComponent: {fileID: 0}
-  rows: []
+  fallSpeed: 1
+  speed: 1
   letters:
   - A
   - Q
@@ -252,6 +253,17 @@ MonoBehaviour:
   - I
   - H
   - L
+  words:
+  - bin
+  - hello
+  - great
+  - find
+  - unity
+  - hub
+  - text
+  - doll
+  - photo
+  - lamp
 --- !u!4 &584138346
 Transform:
   m_ObjectHideFlags: 0
@@ -442,6 +454,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3345274968414567084, guid: 1e53072465bf19a4889c22e3e7e0a848, type: 3}
+      propertyPath: moveSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345274968414567084, guid: 1e53072465bf19a4889c22e3e7e0a848, type: 3}
+      propertyPath: pauseDuration
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6497469062637428993, guid: 1e53072465bf19a4889c22e3e7e0a848, type: 3}
       propertyPath: m_Name
       value: LetterSquare1
