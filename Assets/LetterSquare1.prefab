@@ -113,6 +113,7 @@ GameObject:
   - component: {fileID: 6497469062637428997}
   - component: {fileID: 6497469062637428998}
   - component: {fileID: 6497469062637428999}
+  - component: {fileID: -59704512530764802}
   m_Layer: 0
   m_Name: LetterSquare1
   m_TagString: Untagged
@@ -201,3 +202,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6497469062637428993}
   m_CullTransparentMesh: 1
+--- !u!114 &-59704512530764802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6497469062637428993}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec5e2f67b3046aa4faa813e27398f14e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  deadZone: -45
