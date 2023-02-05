@@ -20,7 +20,7 @@ public class MoveBlocks : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        StartCoroutine(MoveDown());
+       // StartCoroutine(MoveDown());
         //transform.position = transform.position + (Vector3.down * moveSpeed) * Time.deltaTime;
         //new WaitForSeconds(pauseDuration);
         //StartCoroutine(MoveDown());
@@ -30,7 +30,12 @@ public class MoveBlocks : MonoBehaviour
         // Destroy(gameObject);
         //}
     }
-   
+
+    private void FixedUpdate()
+    {
+        StartCoroutine(MoveDown());
+    }
+
     IEnumerator MoveDown()
     {
         while (true)

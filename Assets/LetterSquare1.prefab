@@ -36,7 +36,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -0.357, y: 0.507}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 60, y: 60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &6497469060744974160
 MeshRenderer:
@@ -94,7 +94,7 @@ TextMesh:
   m_LineSpacing: 1
   m_Anchor: 0
   m_Alignment: 0
-  m_TabSize: 4
+  m_TabSize: 1
   m_FontSize: 10
   m_FontStyle: 0
   m_RichText: 1
@@ -139,7 +139,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -9.46, y: 3.99}
+  m_AnchoredPosition: {x: -2, y: 3.99}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &6497469062637428998
@@ -214,3 +214,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcfd206411a97034197f591599a6f052, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 1
+  t: 0
+  deadZone: -45
+  pauseDuration: 10
+  amtToMove: 0
+  moveforward: 0
