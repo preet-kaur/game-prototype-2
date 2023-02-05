@@ -44,8 +44,6 @@ public class BlockSpawnerScript : MonoBehaviour
         string randomLetters = generateRandomLetters(numOfRandomLetters);
         string shuffleLetters = "";
         shuffleLetters += word + randomLetters;
-        
-        Vector3 movement = new Vector3(0f, -1f, 0f);
 
         for (int j = 0; j < 5; j++)
         {

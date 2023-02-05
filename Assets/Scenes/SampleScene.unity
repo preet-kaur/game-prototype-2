@@ -460,7 +460,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3345274968414567084, guid: 1e53072465bf19a4889c22e3e7e0a848, type: 3}
       propertyPath: pauseDuration
-      value: 10
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6497469062637428993, guid: 1e53072465bf19a4889c22e3e7e0a848, type: 3}
       propertyPath: m_Name
